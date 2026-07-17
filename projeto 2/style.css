@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-esquerda {
+    padding-left: 136px;
+    margin-top: 20%;
+    display: inline-block;
+    width: 60%;
+    background-color: #ffffff;
+    
+}
+
+.container-direita {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(93, 93, 125, 0.16);
+}
+
+.img-direita {
+    position: relative;
+    top: 20%;
+    right: 130px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    letter-spacing: 0px;
+    color: #5D5D7D;
+    line-height: 80px;
+
+}
+
+p {
+    width: 540px;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #5D5D7D;
+    opacity: 0.6;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+a {
+    width: 376;
+    height: 41.1201171875;
+    margin-right: 41px;
+    color: #5D5D7D;
+    font-size: 28px;
+    line-height: 41px;
+
+}
+
+a:hover {
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+a:active {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+header {
+    margin: 24px 0px 0px 57px;
+}
+button:hover {
+    opacity: 0.4;
+    color: #5D5D7D;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-esquerda {
+        width: 100vw;
+        padding: 20px;
+        margin-top: 10%;
+        height: 50%;
+        justify-content: center;
+
+}
+    .container-direita {
+        display: block;
+        height: 50%;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .img-direita {
+        position: static;
+        top: 20%;
+        right: 0px;
+        max-width: 80%;
+        padding: 46px 0px 0px 50px;
+        justify-content: center;
+        
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 20px 50px 0px 50px;
+        text-align: center;
+
+
+    }
+    p {
+        margin: 0px 40px 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    button {
+        margin: 0 auto;
+        display: block;
+
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .container-esquerda {
+       height: 70%;
+}
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active:active {
+    color: red;
+}
+
+.visited:visited {
+    color: purple;
+}
+
+.hover:hover {
+    color: blue;
+}
+
+.checked:checked {
+    width: 20px;
+    height: 20px;   
+}
